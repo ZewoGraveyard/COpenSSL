@@ -1,0 +1,14 @@
+module COpenSSL [system] {
+    header "/usr/include/openssl/evp.h"
+    header "/usr/include/openssl/e_os2.h"
+    header "/usr/include/openssl/rand.h"
+    header "/usr/include/openssl/err.h"
+    header "/usr/include/openssl/crypto.h"
+    header "/usr/include/openssl/ssl.h"
+    header "/usr/include/openssl/x509v3.h"
+    header "/usr/include/openssl/bn.h"
+    header "/usr/include/openssl/srtp.h"
+    link "ssl"
+    link "crypto"
+    export *
+}
