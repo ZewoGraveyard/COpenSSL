@@ -13,7 +13,7 @@ COpenSSL
 - Install `libssl-dev`
 
 ```bash
-$ sudo apt-get install libssl-dev
+sudo apt-get install libssl-dev
 ```
 
 - Add `COpenSSL` to your `Package.swift`
