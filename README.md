@@ -29,7 +29,7 @@ let package = Package(
 
 ```
 
-- Build command
+- OSX build command
 
 ```bash
 $ swift build -Xcc -I/usr/local/include -Xlinker -L/usr/local/lib
