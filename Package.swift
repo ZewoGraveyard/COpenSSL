@@ -1,5 +1,10 @@
 import PackageDescription
 
 let package = Package(
-	name: "COpenSSL"
+	name: "COpenSSL",
+	pkgConfig: "openssl",
+	providers: [
+		.Brew("openssl"), 
+		.Apt("openssl")
+	]
 )
