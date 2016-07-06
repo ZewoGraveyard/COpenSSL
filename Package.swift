@@ -5,6 +5,6 @@ let package = Package(
 	pkgConfig: "openssl",
 	providers: [
 		.Brew("openssl"), 
-		.Apt("openssl")
+		.Apt("libssl-dev")
 	]
 )
