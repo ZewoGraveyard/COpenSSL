@@ -3,6 +3,7 @@
 #import <openssl/rand.h>
 #import <openssl/err.h>
 #import <openssl/crypto.h>
+#import <openssl/md5.h>
 #import <openssl/ssl.h>
 #import <openssl/x509v3.h>
 #import <openssl/bn.h>
