@@ -1,1 +1,0 @@
-../gost_params.h
