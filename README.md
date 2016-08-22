@@ -10,19 +10,6 @@ COpenSSL
 
 ## Installation
 
-### Linux
-
-```bash
-sudo apt-get install libssl-dev
-```
-
-### OS X
-
-```bash
-brew install openssl
-brew link --force openssl
-```
-
 ## Usage
 
 - Add `COpenSSL` to your `Package.swift`
@@ -32,7 +19,7 @@ import PackageDescription
 
 let package = Package(
 	dependencies: [
-		.Package(url: "https://github.com/Zewo/COpenSSL.git", majorVersion: 0, minor: 6)
+		.Package(url: "https://github.com/Zewo/COpenSSL.git", majorVersion: 0, minor: 8)
 	]
 )
 
