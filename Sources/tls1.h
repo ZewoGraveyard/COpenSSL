@@ -152,6 +152,7 @@
 # define HEADER_TLS1_H
 
 # include "buffer.h"
+# include "ssl.h"
 
 #ifdef  __cplusplus
 extern "C" {
