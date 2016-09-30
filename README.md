@@ -4,7 +4,7 @@
 [![License][mit-badge]][mit-url]
 [![Slack][slack-badge]][slack-url]
 
-COpenSSL is a copy of of [OpenSSL](https://www.openssl.org).
+COpenSSL is a unmodified fork of of [OpenSSL](https://www.openssl.org).
 
 ## Community
 
