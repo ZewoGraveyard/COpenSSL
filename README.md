@@ -4,7 +4,36 @@
 [![License][mit-badge]][mit-url]
 [![Slack][slack-badge]][slack-url]
 
-COpenSSL is a clone of [OpenSSL](https://www.openssl.org).
+COpenSSL provides [OpenSSL](https://www.openssl.org) for Swift.
+
+## Installation
+
+### Linux
+
+```bash
+sudo apt-get install libssl-dev
+```
+
+### OS X
+
+```bash
+brew install openssl
+```
+
+## Usage
+
+- Add `COpenSSL` to your `Package.swift`
+
+```swift
+import PackageDescription
+
+let package = Package(
+	dependencies: [
+		.Package(url: "https://github.com/Zewo/COpenSSL.git", majorVersion: 0, minor: 15)
+	]
+)
+
+```
 
 ## Community
 
