@@ -45,7 +45,7 @@ We have an amazing community of open and welcoming developers. Join us on [Slack
 
 All **Zewo** modules are released under the MIT license. See LICENSE for details.
 
-[platform-badge]: https://img.shields.io/badge/Platform-Mac%20%26%20Linux-lightgray.svg?style=flat
+[platform-badge]: https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-lightgray.svg?style=flat
 [platform-url]: https://swift.org
 [mit-badge]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat
 [mit-url]: https://tldrlegal.com/license/mit-license
