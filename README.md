@@ -14,7 +14,7 @@ COpenSSL provides [OpenSSL](https://www.openssl.org) for Swift.
 sudo apt-get install libssl-dev
 ```
 
-### OS X
+### macOS
 
 ```bash
 brew install openssl
